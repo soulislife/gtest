@@ -22,6 +22,6 @@ double *quadraticEquationSolver(int a, int b, int c) {
     if (!roots)
         return roots;
     free(roots);
-    return 0;
+    return NULL;
 }
 
