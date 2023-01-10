@@ -9,7 +9,7 @@ double *quadraticEquationSolver(int a, int b, int c) {
 
     int discriminant = b*b - 4*a*c;
     if (discriminant < 0) {
-        roots = NULL;
+        return NULL;
     }
     else if (discriminant == 0){
         roots[0] = -b/(2*a);
